@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap&display=swap');
+
+
+
+
+.contenairDetails{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBlockDetails{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beerBlockDetails{
+    width: 65%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.beerCardImageDetails{
+    width: 100%;
+    height: 100%;
+    background-color: #dff9fb;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beerCardDatasDetails{
+    height: 100%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.tabDetailsStyle {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBewersTipsBlock{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.infoDetailsBlock{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    overflow: scroll;
+}
+
+.ingredientsDetailsBlock{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    overflow: scroll;
+}
+
+.nameAndTagDetails{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nameBeerDetails{
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tagBeerDetails{
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.volumeBlockDetails{
+    height: 20%;
+    width: 100%;
+}
+
+.volumeDateDetails{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+
+
+/* CUSTOMIZE TITLE TAB */
+.ant-tabs-tab {
+    color: #000000 !important;
+    padding: 8px 0px !important;
+    font-family: 'Asap', sans-serif !important;
+}
+
+.ant-tabs-tab-btn{
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif !important;
+    
+}
+
+/* CUSTOMIZE BOTTOM BAR */
+.ant-tabs-tab.ant-tabs-tab-active {
+    border-bottom: 2px solid #000000 !important;
+    z-index: 1;
+}
+
+@media (max-width: 400px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 10px !important;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 10px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+
+    .contentCard{
+        font-size: 8px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+
+
+}
+
+@media (max-width: 500px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 15px;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 15px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+    .contentCard{
+        font-size: 13px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+}
+
+@media (max-width: 350px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 10px;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 10px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+
+    .contentCard{
+        font-size: 10px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+}
+
+
+/* CUSTOMIZE WHEN CLICK ON TAB   */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    font-weight: bold !important;
+    transition: none !important;
+    font-family: 'Asap', sans-serif !important;
+}
+
+
+/* CUSTOMIZE BOTTOM BAR ANIMATION */
+.ant-tabs-ink-bar{
+    background:rgb(0, 0, 0) !important;
+    position: absolute !important;
+    pointer-events: none !important;
+}
+
+
+/* CUSTOMIZE ANIMATION BOTTOM BAR TAB */
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar-animated{
+    transition: width 0.2s, left 0.1s, right 1s !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before{
+    border-bottom: 0px solid !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected{
+    border-bottom: 0px solid !important;
+}
+
+.detailsAndCart{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.contentCard{
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+.titleBeer{
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    margin-top: 8px;
+    text-align: center;
+
+
+}
+.contentInfos{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
+
+.descriptionText{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
+
+.contenairDescriptionContent {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.contenairDetailsVolumeContent {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenairInfoContent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.volumeBeerIcon{
+    height: 80%;
+    width: 100px;
+    background: url('../images/beer-icon-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+
+}
+
+.volumeNumberBlock{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+
+}
+
+.numberVolume{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a{
+    color: black !important;
+
+}
+
+.bottomDetails{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ingredientsCategory{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.ingredientsElements{
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.brewerTips{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(189, 189, 189);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .descriptionBlockDetails{
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+.bottomButtonsHeart{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    height: 50px;
+    width: 20%;
+    background-color: #565CB8;
+}
+
+.bottomButtonsBack{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    height: 50px;
+    width: 35%;
+    background-color: #565CB8;
+}
+
+.textButtonBack{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+
+}

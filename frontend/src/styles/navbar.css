@@ -1,0 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap&display=swap');
+
+
+
+.mainMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.mainContenair{
+    display: flex;
+    justify-content: center;
+    background-color: #f8eb3a;
+}
+
+.ant-menu-horizontal{
+    background-color: #f8eb3a !important;
+    border-bottom: 0px solid #f0f0f0 !important;
+
+}
+.ant-menu-horizontal > .ant-menu-item a:hover{
+    color: black !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.navBlock {
+    width: 45%;
+    height: 100px;
+    background-color: #f8eb3a;
+}
+
+.logoBeer{
+    background-color: green;
+    width: 8%;
+    height: 100%;
+    margin-left: 3%;
+    background: url('../images/beer-icon-6.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.navOptions{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    
+}
+
+.navOptions:hover{
+    border-bottom: 2px solid transparent !important;
+    color: black;
+}
+
+.imageCartBeer{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartBlockItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.trashIcon{
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+

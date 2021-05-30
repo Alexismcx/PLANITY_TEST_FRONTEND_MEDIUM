@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap&display=swap');
+
+
+body {
+    background-color: #f8eb3a !important;
+}
+
+
+.contenair{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f8eb3a;
+}
+
+.mainBlock{
+    width: 100%;
+    height: 100%;
+    background-color: #f8eb3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beerBlock{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.beerCard{
+    width: 380px;
+    height: 700px;
+    background-color: #dff9fb;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.topCard{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomCard{
+    background-color: white;
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBottomCardDiv{
+    width: 89%;
+    height: 84%;
+}
+
+.topNavigationCard{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigationStyle{
+    font-size: 15px;
+}
+
+/* CUSTOMIZE TITLE TAB */
+.ant-tabs-tab {
+    color: #000000 !important;
+    padding: 8px 0px !important;
+    font-family: 'Asap', sans-serif !important;
+}
+
+.ant-tabs-tab-btn{
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif !important;
+    
+}
+
+/* CUSTOMIZE BOTTOM BAR */
+.ant-tabs-tab.ant-tabs-tab-active {
+    border-bottom: 2px solid #000000 !important;
+    z-index: 1;
+}
+
+@media (max-width: 400px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 10px !important;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 10px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+
+    .contentCard{
+        font-size: 8px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+
+
+}
+
+@media (max-width: 500px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 15px;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 15px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+    .contentCard{
+        font-size: 13px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+}
+
+@media (max-width: 350px){
+
+    .ant-tabs-tab-btn{
+        color: rgb(0, 0, 0) !important;
+        font-size: 10px;
+        font-family: 'Asap', sans-serif !important;
+        
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-weight: bold !important;
+        font-size: 10px !important;
+        transition: none !important;
+        font-family: 'Asap', sans-serif !important;
+    }
+
+    .contentCard{
+        font-size: 10px !important;
+        font-family: 'Asap', sans-serif;
+    }
+
+}
+
+
+/* CUSTOMIZE WHEN CLICK ON TAB   */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    font-weight: bold !important;
+    transition: none !important;
+    font-family: 'Asap', sans-serif !important;
+}
+
+
+/* CUSTOMIZE BOTTOM BAR ANIMATION */
+.ant-tabs-ink-bar{
+    background:rgb(0, 0, 0) !important;
+    position: absolute !important;
+    pointer-events: none !important;
+}
+
+
+/* CUSTOMIZE ANIMATION BOTTOM BAR TAB */
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar-animated{
+    transition: width 0.2s, left 0.1s, right 1s !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before{
+    border-bottom: 0px solid !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected{
+    border-bottom: 0px solid !important;
+}
+
+.detailsAndCart{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.detailsButton{
+    cursor: pointer;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px solid rgba(124, 124, 124, 0.15);
+    border-radius: 15px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: #565CB8;
+}
+
+.addCart{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    height: 50px;
+    width: 20%;
+    background-color: #565CB8;
+}
+
+.contentCard{
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+.titleBeer{
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    margin-top: 8px;
+    text-align: center;
+
+
+}
+.contentInfos{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
+
+.descriptionText{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
+
+.contenairDescriptionContent {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.contenairVolumeContent {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contenairInfoContent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.volumeBeerIcon{
+    height: 80%;
+    width: 100px;
+    background: url('../images/beer-icon-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+
+}
+
+.volumeNumberBlock{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+
+}
+
+.numberVolume{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+.addToCartText {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
